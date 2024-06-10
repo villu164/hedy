@@ -1274,18 +1274,21 @@ adventures:
         levels:
             1:
                 story_text: |
-                    Esimesel tasemel saad kasutada käske `{print}`, `{ask}` ja `{echo}`.
-                    Kirjuta oma kood programmeerimisväljale või vajuta rohelist nuppu näidiskoodi väljal ja kood kirjutatakse sinu eest!
-                    Käivita kood kasutades rohelist 'Käivita kood' nuppu programmeerimisvälja all.
+                    Teretulemast! 
+                    
+                    See on Hedy (loe: heidi). Siin saad samm-sammult õppida programmeerima.
 
-                    `{print}` käsk kuvab teksti ekraanile.
+                    Proovi kohe ise ka! Kollane nupp kopeerib näidiskoodi programmeerimisväljale. 
+                    Seejärel käivita kood, kasutades rohelist 'Käivita kood' nuppu programmeerimisvälja all (kui rohelist nuppu pole kohe näha, pead ehk natukene lehte allapoole kerima).
+
+                    Valmis? Siis jätka järgmisel lehel, et õppida, kuidas luua omaenda koodi!
                 example_code: |
                     ```
-                    {print} Hello world!
+                    {print} Tere maailm!
                     ```
             2:
                 story_text: |
-                    Congratulations! You've reached level 2. Hopefully you've already made some awesome codes!
+                    Suurepärane! Sa oled jõudnud teisele tasemele. Loodetavasti oled sa praeguseks kirjutanud juba mõningaid ülilahedaid koode!
                     In the first level you might've notice that the `{echo}` command can only save one bit of information at a time.
                     For example in the restaurant adventure, you could echo what the costumer wanted to eat, or what they wanted to drink, but not both in one sentence.
 
@@ -3274,27 +3277,28 @@ adventures:
     print_command:
         name: '{print}'
         default_save_name: print
-        description: Introduction print command
+        description: Sissejuhatus {print} käsule
         levels:
             1:
                 story_text: |
-                    ## The print command
-                    You can print text to the screen using the `{print}` command.
+                    ## Käsk {print}
+                    Teksti väljastamine ekraanile käib `{print}` käsu abil.
                 example_code: |
                     ```
-                    {print} Hi there, programmer!
-                    {print} Welcome to Hedy!
+                    {print} Tere, koodivõlur!
+                    {print} Teretulemast Hedysse!
                     ```
                 story_text_2: |
-                    ### Exercise
-                    In Hedy you will find exercises in every adventure. An exercise allows you to practise the new commands and concepts, and lets you give your own twist to the example codes.
-                    In this exercise you will see a pink blank space. You have to fill something in the place of the blank space before the code can be run.
+                    ### Harjutus
+                    Siin, Hedys (loe: heidis), leiad sa igal seiklusel erinevaid harjutusi. Need lasevad sul harjutada uusi käske ja mõisteid ning võimaldab sul muuta näidiskoode, et need oleksid omapärased ja toredad.
+                    
+                    Selles harjutuses näed saa roosat tühimikku. Sul tuleb see roosa tühimik asendada või täita millegagi, et kood jälle töötaks.
 
-                    Fill in the `{print}` command in the blank space and then add five more lines of code. Each line has to start with a `{print}` command.
-                    Have fun!
+                    Asenda tühimik käsuga `{print}` ning jooksuta kood, kasutades rohelist nuppu programmeerimisvälja all. Seejärel lisa veel vähemalt viis rida koodi. Iga rida peab hakkama käsuga `{print}`.
+                    Lõbutse hästi!
                 example_code_2: |
                     ```
-                    _ Hello!
+                    _ Tere!
                     ```
             18:
                 story_text: |-
